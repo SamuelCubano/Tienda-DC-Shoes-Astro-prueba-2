@@ -2,6 +2,7 @@
 import ImageComponent from '../components/ImageComponent.astro';
 import { Image } from 'astro:assets';
 import  logo  from '../images/logo.png';
+import  me  from '../images/me.jpg';
 ---
 
 <!doctype html>
@@ -164,7 +165,7 @@ import  logo  from '../images/logo.png';
         <div class="footer" id="footer">
           <div class="profile">
             <h2 class="ashu">¿Quién Soy?</h2>
-            <img src="/src/images/me.jpg" alt="Foto de Samuel">
+            <Image src={ me } alt="me"/>
             <p id="p">Soy Samuel, un apasionado de la programación desde temprana edad, vivo en Caracas, Venezuela. Mi amor por el código y la tecnología ha sido una constante en mi vida, conduciéndome a través de una multitud de proyectos y desafíos que han perfeccionado mis habilidades y avivado mi creatividad. Cada línea de código que escribo es una oportunidad para innovar y resolver problemas complejos, transformando ideas abstractas en realidades funcionales.</p>
             
           </div>
