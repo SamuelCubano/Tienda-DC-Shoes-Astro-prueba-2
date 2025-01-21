@@ -23,7 +23,7 @@ import  me  from '../images/me.jpg';
     <p class="sd">~Order by 12/15 for Christmas delivery~</p>
     <header>
       <div id="elements">
-        <Image src={ logo } alt="logo"/>
+        <Image src={ logo } alt="logo" class="logo"/>
         <div>
           <a href="">Sale</a>
           <a href="">Shop</a>
@@ -165,7 +165,7 @@ import  me  from '../images/me.jpg';
         <div class="footer" id="footer">
           <div class="profile">
             <h2 class="ashu">¿Quién Soy?</h2>
-            <Image src={ me } alt="me"/>
+            <Image src={ me } alt="me" class="me"/>
             <p id="p">Soy Samuel, un apasionado de la programación desde temprana edad, vivo en Caracas, Venezuela. Mi amor por el código y la tecnología ha sido una constante en mi vida, conduciéndome a través de una multitud de proyectos y desafíos que han perfeccionado mis habilidades y avivado mi creatividad. Cada línea de código que escribo es una oportunidad para innovar y resolver problemas complejos, transformando ideas abstractas en realidades funcionales.</p>
             
           </div>
@@ -2500,6 +2500,16 @@ font-family: "Oxanium", sans-serif;
       background-repeat: no-repeat;
       transition: 0.3s;
       font-family: "Oxanium", sans-serif;
+      }
+
+      .me {
+        width: 50px;
+        height: 150px;
+      }
+
+      .logo{
+        width: 50px;
+        height: 100px;
       }
       </style>
   </body>
